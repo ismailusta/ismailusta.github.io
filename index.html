@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-navbar">
+        <div class="contact-info">
+            <span class="location-icon">📍</span> Turkey / Izmir
+            <span class="phone-icon">📞</span> +90 536 565 3361
+        </div>
+        <div class="login-buttons">
+            <button class="admin-login">Admin Login</button>
+            <button class="user-login">User Login</button>
+        </div>
+    </div>
+    <!-- Second Navigation Bar -->
+    <div class="second-navbar">
+        <img src="logo.jpg" alt="Logo" class="logo"> <!-- Replace with your logo -->
+        <a href="#" class="nav-link active">Sign-In</a>
+        <a href="#" class="nav-link">Home Page</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">About Us</a>
+        <a href="#" class="nav-link">Communication</a>
+    </div>
+
+    <!-- Main Sign-In Section -->
+    <div class="signin-section" id="signin">
+        <h2>Sign In</h2>
+        <form>
+            <label for="email">Email/Username*</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="password">Password*</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="login-button">LOGIN</button>
+            <p><a href="#" class="forgot-password">I forgot my password</a></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

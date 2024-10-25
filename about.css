@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.first-navbar {
+    display: flex;
+    align-items: center;  /* Center items vertically */
+    background-color: #003366;  /* Background color for navbar */
+    padding: 10px 20px;  /* Padding for the navbar */
+}
+
+.logo {
+    max-width: 100px;  /* Set maximum width for the logo */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 20px;  /* Space between logo and links */
+    border-radius: 30%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;  /* Distribute space between links */
+    flex-grow: 1;  /* Allow this div to grow and fill available space */
+}
+
+.nav-link {
+    text-decoration: none;  /* Remove underline from links */
+    color: white;  /* Link text color */
+    margin-right: 20px;  /* Space between links */
+    padding: 10px;  /* Padding around links for better click area */
+}
+
+.nav-link.active {
+    background-color: yellow;  /* Highlight for active link */
+    color: #003366;  /* Change text color for active link */
+    border-radius: 5px;  /* Round corners for active link */
+    font-weight: bold;
+}

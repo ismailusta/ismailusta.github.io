@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.first-navbar {
+    display: flex;
+    align-items: center;  /* Center items vertically */
+    background-color: #003366;  /* Background color for navbar */
+    padding: 10px 20px;  /* Padding for the navbar */
+}
+
+.logo {
+    max-width: 100px;  /* Set maximum width for the logo */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 20px;  /* Space between logo and links */
+    border-radius: 30%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;  /* Distribute space between links */
+    flex-grow: 1;  /* Allow this div to grow and fill available space */
+}
+
+.nav-link {
+    text-decoration: none;  /* Remove underline from links */
+    color: white;  /* Link text color */
+    margin-right: 20px;  /* Space between links */
+    padding: 10px;  /* Padding around links for better click area */
+}
+
+.nav-link.active {
+    background-color: yellow;  /* Highlight for active link */
+    color: #003366;  /* Change text color for active link */
+    border-radius: 5px;  /* Round corners for active link */
+    font-weight: bold;
+}
+.background-image {
+    background-image: url('background.png'); /* Arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Sayfanın tamamını kaplar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Yazı rengi */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Karanlık bir arka plan */
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+}
+
+
+footer {
+    background-color: #003366; 
+    color: #ccc;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logo-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    border-radius: 30%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-info,
+.info-links {
+    text-align: left;
+}
+
+.footer-links h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    color: #777;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

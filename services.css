@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.first-navbar {
+    display: flex;
+    align-items: center;  /* Center items vertically */
+    background-color: #003366;  /* Background color for navbar */
+    padding: 10px 20px;  /* Padding for the navbar */
+}
+
+.logo {
+    max-width: 100px;  /* Set maximum width for the logo */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 20px;  /* Space between logo and links */
+    border-radius: 30%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;  /* Distribute space between links */
+    flex-grow: 1;  /* Allow this div to grow and fill available space */
+}
+
+.nav-link {
+    text-decoration: none;  /* Remove underline from links */
+    color: white;  /* Link text color */
+    margin-right: 20px;  /* Space between links */
+    padding: 10px;  /* Padding around links for better click area */
+}
+
+.nav-link.active {
+    background-color: yellow;  /* Highlight for active link */
+    color: #003366;  /* Change text color for active link */
+    border-radius: 5px;  /* Round corners for active link */
+    font-weight: bold;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    height: 60vh;
+}
+
+.card {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+}
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.card p {
+    margin-top: 20px;
+    color:  #003366;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: rgb(6, 215, 6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: large;
+}
+
+.card button:hover {
+    background-color: #aaa;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.close {
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+footer {
+    background-color: #003366; 
+    color: #ccc;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logo-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+     border-radius: 30%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-info,
+.info-links {
+    text-align: left;
+}
+
+.footer-links h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    color: #777;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

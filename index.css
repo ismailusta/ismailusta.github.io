@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.login-buttons button {
+    margin-left: 20px;
+    background-color: white;
+    color: #003366;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.second-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-width: 150px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #003366;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.nav-link.active {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.signin-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-section h2 {
+    margin-bottom: 20px;
+}
+
+.signin-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signin-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #003366;
+    margin-top: 10px;
+}
